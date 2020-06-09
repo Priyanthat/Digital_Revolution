@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, D:/intelFPGA_lite/19.1/exor_tb/exor_tb.v
+source_file = 1, D:/intelFPGA_lite/19.1/exor_tb/exor.v
+source_file = 1, D:/intelFPGA_lite/19.1/exor_tb/db/exor_tb.cbx.xml
+design_name = exor_tb
+instance = comp, \xor_output~output , xor_output~output, exor_tb, 1
+instance = comp, \input1~input , input1~input, exor_tb, 1
+instance = comp, \input2~input , input2~input, exor_tb, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, exor_tb, 1

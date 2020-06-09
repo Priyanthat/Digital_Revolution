@@ -1,0 +1,11 @@
+|exor_tb
+
+
+|exor_tb|exor:UUT
+xor_output <= comb.DB_MAX_OUTPUT_PORT_TYPE
+input1 => w3.IN0
+input1 => w4.IN0
+input2 => w4.IN1
+input2 => w3.IN1
+
+
